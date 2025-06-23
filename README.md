@@ -249,3 +249,13 @@ body {
 ```
 
 Final Output 🥈- [Business Card](https://68591f8d9ad995f35699aeca--cute-starship-605139.netlify.app/)
+
+### A recap of what we learnt while building this business card -
+- Image alt texts.
+- Flex child containers (only the direct children on the flexbox getting turned into columns).
+- CSS Inheritance.
+- Margin and Padding Shorthands.
+- Web-Safe fonts.
+- Color Palettes. [Visit](https://coolors.co/palettes/trending).
+
+---
