@@ -1,0 +1,40 @@
+body {
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 426;
+    font-style: normal;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto; /* Pro way of using margins, here it centers the card */ 
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 8px solid #ffc8dd;
+    border-radius: 20px;
+    transition: box-shadow 0.6s ease-in-out;
+}
+
+.card-content {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* A utilty class for a blue dotted border */
+.blue-dotted-border {
+    border: 1px dotted blue;;
+}
