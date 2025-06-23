@@ -3,10 +3,10 @@
 ## HTML File Paths 💯 -
 |Path|Description|
 | --- | --- |
-|<img src="picture.jpg">|The "picture.jpg" file is located in the same folder as the current page.|
-|<img src="images/picture.jpg">|The "picture.jpg" file is located in the images folder in the current folder.|
-|<img src="/images/picture.jpg">|The "picture.jpg" file is located in the images folder at the root of the current web.|
-|<img src="../picture.jpg">|The "picture.jpg" file is located in the folder one level up from the current folder.|
+|`<img src="picture.jpg">`|The "picture.jpg" file is located in the same folder as the current page.|
+|`<img src="images/picture.jpg">`|The "picture.jpg" file is located in the images folder in the current folder.|
+|`<img src="/images/picture.jpg">`|The "picture.jpg" file is located in the images folder at the root of the current web.|
+|`<img src="../picture.jpg">`|The "picture.jpg" file is located in the folder one level up from the current folder.|
 
 ### ☺️ Relative Path Syntax -
 - ./ - Start from the same directory the current file is in. It is the same as not writing ./ and just writing images/me.png (if me.png is inside images folder).
@@ -135,7 +135,7 @@ body {
 
 So, our output looks like this:
 <div style="text-align: center;">
-    <img src="../Images/business-card-initial.png" width="400px">
+    <img src="./Images/business-card-initial.png" width="400px">
 </div>
 
 > [!NOTE]
