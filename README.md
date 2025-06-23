@@ -20,8 +20,8 @@
 
 > [!TIP]
 > Writing good alt texts for the img tag -
-> 1. Don't include 'image of'.\
-> 2. Be concide (<125 characters).
+> 1. Don't include 'image of'.
+> 2. Be concise (<125 characters).
 > 3. Describe it as if you are describing it 'over a phone'.
 
 ## Basic HTML Structure for our project 📽️ -
